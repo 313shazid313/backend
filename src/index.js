@@ -5,8 +5,8 @@ import { DB_NAME } from "../src/contants.js";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 
-// if i want to use import in javascript insted of "require"
-// i have to add "type":"module" in package.json file
+//! if i want to use "import" in javascript insted of "require"
+//!  i have to add "type":"module" in package.json file
 
 const app = express();
 env.config();
